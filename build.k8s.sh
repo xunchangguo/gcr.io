@@ -6,4 +6,4 @@ do
   docker pull ${KGCR}${line}
   docker save ${KGCR}${line} | gzip -c > release/${line}.tar
 done
-ls -l
+ls -l release/
