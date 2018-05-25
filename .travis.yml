@@ -4,7 +4,8 @@ notifications:
 jobs:
   include:
     - stage: deploy
-      go_import_path: xunchangguo/gcr.io
+      services:
+        - docker
       install: skip
       script: skip
       before_deploy:
