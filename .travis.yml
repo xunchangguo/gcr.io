@@ -1,0 +1,19 @@
+services:
+  - docker
+script:
+  - chmod +x *.sh
+  - ./build.sh
+  - ./build.k8s.sh
+deploy:
+  - provider: releases
+    api_key:
+      secure: "zBBW4mkUjZTNhke4J7TY0ohdP7nvlrhOF4BgTOa0So0OTTHNUS0u+Er565BfN0/r8DhSxwuR3cOlQxM4yc26Ckd3uJ4Opvjce4XlL5MasZm2XDA1+nT8VhGM9LuKeIjwnNq1Iuc8Ws0B/SSmPZ7mWMSUqdf7hDHXC6bxo71VZvQt+DFEVE0iU0aspIJAgdUu1TXqsv7I4o7QQYAZeXJIjmcwy6ymOXdqzgNvp67nsvSyiHz7DQrZ+0A3GXo5f+fgEVYm14gZG1J1EeIdo9GfoQeiBGUjSizf1wdkspJensl8Fy5+8YQqPKU7IIazVVc54gl1+FAY7rvBB4oEzEZVkugmaZRG4sMpWiwtSj944ByZ3mVxtNQphbQJprasw42EmA3UCuf0RyxpYBUtM2HLijoBe0+K3M9U6fQ8udKfgkg2on2U8sSHIPcUY1tVS8+t0dIV+hZVkLw3FWUQL135cwdN4AHSwqbbUTt5f2cmJuoSz1sgqYHIznAZ7nee9w1+FqQ8GJC228iX7o6I9wnA5qRfE50fJXJjJ5jvm4NxLwpVGSImenmDAFZ8VIKaaKfBbxudHkRlDwMGAY2dceZv+l2lGirCygE36FSNnCG0ficHPj08BbARm/q8NVgpGBtbaRWM4DQtiEAqm/a2nfSz0ZoLS2A9mkL9NZFxyluZgAU="
+    file:
+      - release/*
+    skip_cleanup: true
+    on:
+      repo: xunchangguo/gcr.io
+      branch: master
+      tags: true
+addons:
+  ssh_known_hosts: github.com
