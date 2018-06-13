@@ -10,7 +10,6 @@ jobs:
       script: skip
       before_deploy:
         - chmod +x *.sh
-        - yum list
         - ./build.sh
         - ./build.k8s.sh
       deploy:
