@@ -12,6 +12,7 @@ jobs:
         - chmod +x *.sh
         - ./build.sh
         - ./build.rpm.sh
+        - ./quay.io.sh
         - ./build.k8s.sh
       deploy:
         - provider: releases
