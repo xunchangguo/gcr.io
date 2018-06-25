@@ -1,5 +1,5 @@
 #!/bin/sh
-KGCR="quay.io/"
+KGCR="quay.io/coreos/"
 cat quay.io | while read line
 do
   echo "build ${line} ......................."

@@ -1,1 +1,1 @@
-coreos/kube-state-metrics:v1.3.1
+kube-state-metrics:v1.3.1
