@@ -1,1 +1,1 @@
-kubernetes-dashboard-amd64:v1.8.3
+elasticsearch:v6.2.4
