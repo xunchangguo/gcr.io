@@ -11,8 +11,9 @@ jobs:
       before_deploy:
         - chmod +x *.sh
         - ./build.sh
-        - ./build.rpm.sh
+        #- ./build.rpm.sh
         - ./quay.io.sh
+        - ./other.sh
         - ./build.k8s.sh
       deploy:
         - provider: releases
