@@ -1,1 +1,1 @@
-elasticsearch:v6.3.0
+elasticsearch:v6.3.1
