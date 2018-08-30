@@ -1,2 +1,1 @@
-docker.elastic.co/logstash/logstash:6.3.1
-docker.elastic.co/logstash/logstash:6.3.2
+quay.io/coreos/etcd-operator:v0.9.2
