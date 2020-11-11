@@ -1,1 +1,3 @@
-gcr.io/google_containers/cluster-proportional-autoscaler-amd64:1.7.1
+pinpointdocker/pinpoint-collector:2.1.0
+pinpointdocker/pinpoint-web:2.1.0
+pinpointdocker/pinpoint-hbase:2.1.0
