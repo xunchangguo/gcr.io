@@ -1,3 +1,1 @@
-pinpointdocker/pinpoint-collector:2.1.0
-pinpointdocker/pinpoint-web:2.1.0
-pinpointdocker/pinpoint-hbase:2.1.0
+zookeeper:3.4
