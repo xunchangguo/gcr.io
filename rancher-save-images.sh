@@ -55,4 +55,6 @@ while IFS= read -r i; do
 done < "${list}"
 
 echo "Creating ${images} with $(echo ${pulled} | wc -w | tr -d '[:space:]') images"
-docker save $(echo ${pulled}) | gzip --stdout > release/${images}
+docker save $(echo ${pulled}) | gzip --stdout > ${images}
+mv rancher-images.tar.gz release/rancher-images.tar.gz
+
