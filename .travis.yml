@@ -12,9 +12,10 @@ jobs:
         - chmod +x *.sh
         - ./build.sh
         #- ./build.rpm.sh
-        - ./quay.io.sh
-        - ./other.sh
-        - ./build.k8s.sh
+        #- ./quay.io.sh
+        #- ./other.sh
+        #- ./build.k8s.sh
+        - ./rancher-save-images.sh
       deploy:
         - provider: releases
           api_key:
