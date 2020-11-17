@@ -1,5 +1,1 @@
-rancher/rancher-agent:v2.5.2
-rancher/rancher-operator:v0.1.1
-rancher/rancher-webhook:v0.1.0-beta7
-rancher/rancher:v2.5.2
-busybox
+rancher/shell:v0.1.5
