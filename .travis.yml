@@ -10,13 +10,13 @@ jobs:
       script: skip
       before_deploy:
         - chmod +x *.sh
-        - ./build.sh
+        #- ./build.sh
         #- ./build.rpm.sh
         #- ./quay.io.sh
-        - ./other.sh
-        #- ./other_push.sh
+        #- ./other.sh
+        - ./other_push.sh
         #- ./build.k8s.sh
-        - ./rancher-save-images.sh
+        #- ./rancher-save-images.sh
       deploy:
         - provider: releases
           api_key:
