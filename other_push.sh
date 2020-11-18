@@ -7,5 +7,5 @@ do
   echo "tag ${line} docker.pkg.github.com/xunchangguo/${line} ......"
   docker tag ${line} docker.pkg.github.com/xunchangguo/${line}
   echo "push docker.pkg.github.com/xunchangguo/${line} ......"
-  docker push docker.pkg.github.com/xunchangguo/repository-name/${line}
+  docker push docker.pkg.github.com/xunchangguo/${line}
 done
