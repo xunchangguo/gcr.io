@@ -13,8 +13,8 @@ jobs:
         #- ./build.sh
         #- ./build.rpm.sh
         #- ./quay.io.sh
-        #- ./other.sh
-        - ./other_push.sh
+        - ./other.sh
+        #- ./other_push.sh
         #- ./build.k8s.sh
         #- ./rancher-save-images.sh
       deploy:
