@@ -1,1 +1,4 @@
-xunchangguo/jnlp-agents:node-docker-12.16.1
+metabase/metabase:v0.37.4
+edp963/davinci:v0.3.0-beta.9
+redash/redash:preview
+apache/incubator-superset:latest-dev
