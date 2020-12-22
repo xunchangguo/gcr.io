@@ -1,4 +1,5 @@
 #!/bin/sh
+mkdir release
 cat other | while read line
 do
   echo "build ${line} ......................."
