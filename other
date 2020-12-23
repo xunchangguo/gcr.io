@@ -1,4 +1,2 @@
-metabase/metabase:v0.37.4
-edp963/davinci:v0.3.0-beta.9
-redash/redash:preview
-apache/incubator-superset:latest-dev
+bitnami/zookeeper:3-debian-10
+bitnami/kafka:2-debian-10
