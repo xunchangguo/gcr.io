@@ -1,5 +1,6 @@
 #!/bin/sh
 KGCR="k8s.gcr.io/"
+mkdir -p "release"
 cat k8s.gcr.io | while read line
 do
   echo "build ${line} ......................."
