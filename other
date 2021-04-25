@@ -1,3 +1,2 @@
-pinpointdocker/pinpoint-web:2.2.2
-pinpointdocker/pinpoint-hbase:2.2.2
-pinpointdocker/pinpoint-collector:2.2.2
+nginx:1.18.0-alpine
+nginx:1.20.0-alpine
