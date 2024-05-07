@@ -1,2 +1,2 @@
-nginx:1.18.0-alpine
 nginx:1.20.0-alpine
+nacos/nacos-server:2.3.2
